@@ -9,7 +9,7 @@ The goal is to ensure that all generated Flutter code is compliant with the Réf
 ---
 
 ## File Overview
-**File:** `accessibility_instructions_flutter.md`
+**File:** `aa11yFlutter.md`
 
 Disclaimer : This is designed as a help for developpers. However, you still need to do manual test (preferably with people with disabilities and digital accessibility experts) and this is not exhaustive content. 
 
@@ -29,13 +29,13 @@ This file contains:
 4. Always validate accessibility using :
    - Accessibility Inspector (iOS) ; 
    - Accessibility Scanner (Android) ; 
-   - Manual screen reader testing (TalkBack, VoiceOver). 
+   - And most importantly manual screen reader testing (TalkBack, VoiceOver) on last OS versions. 
 
 ---
 
 ## Author
 **Tiffany Voguin**  
-Accessibility and Inclusive Design Advocate  
+Digital accessibility consultant
 
 ---
 
