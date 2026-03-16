@@ -469,15 +469,18 @@ Column(
 ``` dart
 
 Text('The form field marked with an asterisk * are mandatory' )
-
+Semantics (
+hint : 'Invalid mail adress format. Example : toto@mail.com : null,'
 TextField(
+
   keyboardType: TextInputType.emailAddress, // Display the keyboard to enter a mail address. 
   decoration: InputDecoration(
     label : 'Email (@mail.com) *',
     errorText: emailError ? 'Invalid mail adress format. Example : toto@mail.com : null,'
   ),
 )
-
+Semantic :
+hint : 'Invalid date format. Expected format MM/DD/AAAA. Example : 04/07/2000 : null'
 TextField(
   keyboardType:TextInputType.number, // Display the keyboard to enter a number. 
   decoration: InputDecoration(
